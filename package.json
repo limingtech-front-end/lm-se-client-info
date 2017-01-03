@@ -1,0 +1,19 @@
+{
+  "name": "lm-se-client-info",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/limingtech-front-end/lm-se-client-info.git"
+  },
+  "author": "littlstonee <littlstonee@hotmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/limingtech-front-end/lm-se-client-info/issues"
+  },
+  "homepage": "https://github.com/limingtech-front-end/lm-se-client-info#readme"
+}
