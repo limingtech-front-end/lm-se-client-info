@@ -1,5 +1,5 @@
-import checkClient from 'ut-check-client'
-import calcUriParams from 'ut-check-uri-params'
+import checkClient from 'lm-ut-check-client'
+import calcUriParams from 'lm-ut-cclc-uri-params'
 
 let isIos=checkClient.isIos,
 	isAndroid=checkClient.isAndroid,

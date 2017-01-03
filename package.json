@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/limingtech-front-end/lm-se-client-info/issues"
   },
-  "homepage": "https://github.com/limingtech-front-end/lm-se-client-info#readme"
+  "homepage": "https://github.com/limingtech-front-end/lm-se-client-info#readme",
+  "dependencies": {
+    "lm-ut-calc-uri-params": "git+https://github.com/limingtech-front-end/lm-ut-calc-uri-params.git",
+    "lm-ut-check-client": "git+https://github.com/limingtech-front-end/lm-ut-check-client.git"
+  }
 }
