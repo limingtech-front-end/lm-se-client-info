@@ -1,23 +1,83 @@
 {
-  "name": "lm-se-client-info",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "_args": [
+    [
+      {
+        "raw": "lm-se-client-info@git+https://github.com/limingtech-front-end/lm-se-client-info.git",
+        "scope": null,
+        "escapedName": "lm-se-client-info",
+        "name": "lm-se-client-info",
+        "rawSpec": "git+https://github.com/limingtech-front-end/lm-se-client-info.git",
+        "spec": "git+https://github.com/limingtech-front-end/lm-se-client-info.git",
+        "type": "hosted",
+        "hosted": {
+          "type": "github",
+          "ssh": "git@github.com:limingtech-front-end/lm-se-client-info.git",
+          "sshUrl": "git+ssh://git@github.com/limingtech-front-end/lm-se-client-info.git",
+          "httpsUrl": "git+https://github.com/limingtech-front-end/lm-se-client-info.git",
+          "gitUrl": "git://github.com/limingtech-front-end/lm-se-client-info.git",
+          "shortcut": "github:limingtech-front-end/lm-se-client-info",
+          "directUrl": "https://raw.githubusercontent.com/limingtech-front-end/lm-se-client-info/master/package.json"
+        }
+      },
+      "D:\\Projects\\vsa\\node_modules\\lm-ut-calc-platform-method"
+    ]
+  ],
+  "_from": "git+https://github.com/limingtech-front-end/lm-se-client-info.git",
+  "_id": "lm-se-client-info@1.0.0",
+  "_inCache": true,
+  "_location": "/lm-se-client-info",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "lm-se-client-info@git+https://github.com/limingtech-front-end/lm-se-client-info.git",
+    "scope": null,
+    "escapedName": "lm-se-client-info",
+    "name": "lm-se-client-info",
+    "rawSpec": "git+https://github.com/limingtech-front-end/lm-se-client-info.git",
+    "spec": "git+https://github.com/limingtech-front-end/lm-se-client-info.git",
+    "type": "hosted",
+    "hosted": {
+      "type": "github",
+      "ssh": "git@github.com:limingtech-front-end/lm-se-client-info.git",
+      "sshUrl": "git+ssh://git@github.com/limingtech-front-end/lm-se-client-info.git",
+      "httpsUrl": "git+https://github.com/limingtech-front-end/lm-se-client-info.git",
+      "gitUrl": "git://github.com/limingtech-front-end/lm-se-client-info.git",
+      "shortcut": "github:limingtech-front-end/lm-se-client-info",
+      "directUrl": "https://raw.githubusercontent.com/limingtech-front-end/lm-se-client-info/master/package.json"
+    }
   },
+  "_requiredBy": [
+    "/lm-ut-calc-platform-method"
+  ],
+  "_resolved": "git+https://github.com/limingtech-front-end/lm-se-client-info.git#3bbcd83bb7cb4552a3b3b4a00c022a67da7d1944",
+  "_shasum": "c19fc9327fa1f216a48dcafc2efb92f47705fbe7",
+  "_shrinkwrap": null,
+  "_spec": "lm-se-client-info@git+https://github.com/limingtech-front-end/lm-se-client-info.git",
+  "_where": "D:\\Projects\\vsa\\node_modules\\lm-ut-calc-platform-method",
+  "author": {
+    "name": "littlstonee",
+    "email": "littlstonee@hotmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/limingtech-front-end/lm-se-client-info/issues"
+  },
+  "dependencies": {
+    "lm-ut-calc-uri-params": "git+https://github.com/limingtech-front-end/lm-ut-calc-uri-params.git",
+    "lm-ut-check-client": "git+https://github.com/limingtech-front-end/lm-ut-check-client.git"
+  },
+  "devDependencies": {},
+  "gitHead": "3bbcd83bb7cb4552a3b3b4a00c022a67da7d1944",
+  "homepage": "https://github.com/limingtech-front-end/lm-se-client-info#readme",
+  "license": "MIT",
+  "main": "index.js",
+  "name": "lm-se-client-info",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/limingtech-front-end/lm-se-client-info.git"
   },
-  "author": "littlstonee <littlstonee@hotmail.com>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/limingtech-front-end/lm-se-client-info/issues"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "homepage": "https://github.com/limingtech-front-end/lm-se-client-info#readme",
-  "dependencies": {
-    "lm-ut-calc-uri-params": "git+https://github.com/limingtech-front-end/lm-ut-calc-uri-params.git",
-    "lm-ut-check-client": "git+https://github.com/limingtech-front-end/lm-ut-check-client.git"
-  }
+  "version": "1.0.0"
 }

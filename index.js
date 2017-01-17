@@ -1,14 +1,14 @@
-import checkClient from 'lm-ut-check-client'
-import calcUriParams from 'lm-ut-cclc-uri-params'
+var checkClient = require('lm-ut-check-client')
+var calcUriParams = require('lm-ut-calc-uri-params')
 
-let isIos=checkClient.isIos,
+var isIos=checkClient.isIos,
 	isAndroid=checkClient.isAndroid,
 	isWechatWebView=checkClient.isWechat
 
-let isAndroidWebViewUriPrefix=calcUriParams.getUriQuery().isAndroid,
+var isAndroidWebViewUriPrefix=calcUriParams.getUriQuery().isAndroid,
 	isIosWebViewUriPrefix=calcUriParams.getUriQuery().isIos
 	
-const renders={
+var renders={
 	iosWebView:'iosWebView',
 	androidWebView:'androidWebView',
 	wechatWebView:'wechatWebView',
@@ -29,7 +29,7 @@ function maybeBrowser(){
 	return !isWechatWebView() && !isIosWebView() && !isAndroidWebView()
 }
 
-const render={
+var render={
 	isAndroidWebView:isAndroidWebView(),
 	isIosWebView:isIosWebView(),
 	isNativeWebView:isAndroidWebView() || isIosWebView(),
@@ -40,7 +40,7 @@ const render={
 }
 
 console.log(render)
-export default{
+module.exports={
 	renders:renders,
 	render:render
 }
