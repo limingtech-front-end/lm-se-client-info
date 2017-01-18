@@ -1,6 +1,5 @@
 var checkClient = require('lm-ut-check-client')
 var calcUriParams = require('lm-ut-calc-uri-params')
-
 var isIos=checkClient.isIos,
 	isAndroid=checkClient.isAndroid,
 	isWechatWebView=checkClient.isWechat

@@ -20,6 +20,27 @@
         }
       },
       "D:\\Projects\\vsa\\node_modules\\lm-ut-calc-platform-method"
+    ],
+    [
+      {
+        "raw": "lm-se-client-info@git+https://github.com/limingtech-front-end/lm-se-client-info.git",
+        "scope": null,
+        "escapedName": "lm-se-client-info",
+        "name": "lm-se-client-info",
+        "rawSpec": "git+https://github.com/limingtech-front-end/lm-se-client-info.git",
+        "spec": "git+https://github.com/limingtech-front-end/lm-se-client-info.git",
+        "type": "hosted",
+        "hosted": {
+          "type": "github",
+          "ssh": "git@github.com:limingtech-front-end/lm-se-client-info.git",
+          "sshUrl": "git+ssh://git@github.com/limingtech-front-end/lm-se-client-info.git",
+          "httpsUrl": "git+https://github.com/limingtech-front-end/lm-se-client-info.git",
+          "gitUrl": "git://github.com/limingtech-front-end/lm-se-client-info.git",
+          "shortcut": "github:limingtech-front-end/lm-se-client-info",
+          "directUrl": "https://raw.githubusercontent.com/limingtech-front-end/lm-se-client-info/master/package.json"
+        }
+      },
+      "D:\\Tests\\nativehybrid\\mail-icar"
     ]
   ],
   "_from": "git+https://github.com/limingtech-front-end/lm-se-client-info.git",
@@ -46,13 +67,14 @@
     }
   },
   "_requiredBy": [
+    "/",
     "/lm-ut-calc-platform-method"
   ],
-  "_resolved": "git+https://github.com/limingtech-front-end/lm-se-client-info.git#3bbcd83bb7cb4552a3b3b4a00c022a67da7d1944",
-  "_shasum": "c19fc9327fa1f216a48dcafc2efb92f47705fbe7",
+  "_resolved": "git+https://github.com/limingtech-front-end/lm-se-client-info.git#fc0361b9b5f4167c067e431a464f135146dcc725",
+  "_shasum": "6b2e624e86d7263b4622e205aca5253ddd2f5409",
   "_shrinkwrap": null,
   "_spec": "lm-se-client-info@git+https://github.com/limingtech-front-end/lm-se-client-info.git",
-  "_where": "D:\\Projects\\vsa\\node_modules\\lm-ut-calc-platform-method",
+  "_where": "D:\\Tests\\nativehybrid\\mail-icar",
   "author": {
     "name": "littlstonee",
     "email": "littlstonee@hotmail.com"
